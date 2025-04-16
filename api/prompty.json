@@ -1,7 +1,7 @@
 {
   "default": {
     "type": "azure_openai",
-    "azure_endpoint": "${env:AZURE_OPENAI_ENDPOINT}",
-    "api_key": "${env:AZURE_OPENAI_API_KEY}"
+    "azure_endpoint":"https://jingr-m6zz4k41-eastus2.openai.azure.com",
+    "api_key": "4YH4dKi7zi3FYOvWBJzADIoF6gMgb5PdLejvSrANh3isw3Vnx7Z6JQQJ99BBACHYHv6XJ3w3AAAAACOGl5mT"
   }
 }

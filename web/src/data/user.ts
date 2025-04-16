@@ -15,14 +15,14 @@ const defaultUser: Claim[] = [
     user_claims: [
       {
         typ: "name",
-        val: "Isaac Juarez",
+        val: "Louise Han",
       },
       {
         typ: "preferred_username",
-        val: "sejuare@microsoft.com",
+        val: "jingruhan@microsoft.com",
       },
     ],
-    user_id: "Seth.Juarez@microsoft.com",
+    user_id: "jingruhan@microsoft.com",
     other: "sdsd",
   },
 ];
@@ -45,7 +45,7 @@ const checkUrlStatus = async (url: string): Promise<boolean> => {
 export const fetchUser = async (): Promise<User> => {
   let u: Claim[] = defaultUser;
   try {
-    const response = await fetch(`${WEB_ENDPOINT}/.auth/me`);
+    const response = await fetch(`${WEB_ENDPOINT}`);
     if (response.ok) {
       console.log("using easyauth user")
       u = await response.json();
@@ -56,7 +56,7 @@ export const fetchUser = async (): Promise<User> => {
   }
 
   const name =
-    u[0].user_claims.find((c) => c.typ === "name")?.val || "Seth Juarez";
+    u[0].user_claims.find((c) => c.typ === "name")?.val || "Louise Han";
   const email = u[0].user_id;
   const image = `${WEB_ENDPOINT}/people/${name
     .toLowerCase()

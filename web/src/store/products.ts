@@ -22,11 +22,10 @@ export const products: Product[] = [
     slug: "trailmaster-x4-tent",
     manual: "/manuals/product_info_1.md",
     images: [
-      "/images/1/242e7165-7c79-4f97-8e63-280f9f8982e2.png",
-      "/images/1/42614d79-4013-4303-9750-7c48f3fb61a9.png",
-      "/images/1/6a3111b5-3803-473b-a3dd-12056becea0a.png",
-      "/images/1/cb803f98-9bfa-4156-b0ee-df0581ae2862.png",
-      "/images/1/ff681635-0ce2-4c9a-b227-58de609e3a4e.png",
+      "/images/1/image_1.jpg",
+      "/images/1/image_2.jpg",
+      "/images/1/image_3.jpg",
+      "/images/1/image_4.jpg"
     ],
   },
   {
@@ -40,11 +39,10 @@ export const products: Product[] = [
     slug: "adventurer-pro-backpack",
     manual: "/manuals/product_info_2.md",
     images: [
-      "/images/2/0b0e0e52-e3bf-4bf7-b1e1-3989c91d51a9.png",
-      "/images/2/5b73df27-5275-4437-b7cf-45b1eee175fb.png",
-      "/images/2/6cc997c4-da5d-432c-91f7-216a21d7e690.png",
-      "/images/2/791d0836-e0ad-4b46-bc79-1abcf292b700.png",
-      "/images/2/93afa1a1-d234-409c-ac8e-e0b49dbe79a1.png",
+      "/images/2/image_1.jpg",
+      "/images/2/image_2.jpg",
+      "/images/2/image_3.jpg",
+      "/images/2/image_4.jpg"
     ],
   },
   {
@@ -58,11 +56,10 @@ export const products: Product[] = [
     slug: "summit-breeze-jacket",
     manual: "/manuals/product_info_3.md",
     images: [
-      "/images/3/22ae32ed-7f8f-4238-b7f1-fe5f1dd5a449.png",
-      "/images/3/09887388-3a47-4198-ab19-e18d23768ac5.png",
-      "/images/3/2faec00a-4ee2-4711-aec9-240fd6e342c5.png",
-      "/images/3/a07b9539-e3ef-4dee-969f-076b0d7ac448.png",
-      "/images/3/f8a023c8-169c-443a-b0bb-b63409d7933f.png",
+      "/images/3/image_1.jpg",
+      "/images/3/image_2.jpg",
+      "/images/3/image_3.jpg",
+      "/images/3/image_4.jpg"
     ],
   },
   {
@@ -76,11 +73,10 @@ export const products: Product[] = [
     slug: "trekready-hiking-boots",
     manual: "/manuals/product_info_4.md",
     images: [
-      "/images/4/0889d8c0-bb85-4b77-a749-15682f693c49.png",
-      "/images/4/37204d04-e4bb-4140-811e-1f53b135f2ea.png",
-      "/images/4/8076ecb5-4e4d-4958-8b77-e0bad466cc8a.png",
-      "/images/4/8705bdcd-85f6-44c1-b043-84b4b8f44493.png",
-      "/images/4/8c9044bf-e9cb-4c15-a977-934533055792.png",
+      "/images/4/image_1.jpg",
+      "/images/4/image_2.jpg",
+      "/images/4/image_3.jpg",
+      "/images/4/image_4.jpg"
     ],
   },
   {
@@ -94,11 +90,10 @@ export const products: Product[] = [
     slug: "basecamp-folding-table",
     manual: "/manuals/product_info_5.md",
     images: [
-      "/images/5/0a9b0b18-0304-41a2-8367-155479b77985.png",
-      "/images/5/92c773f6-ed44-4570-992d-3e0d2af55cbf.png",
-      "/images/5/a1b30c60-bb66-4bef-a0b4-0766400e306c.png",
-      "/images/5/cf761719-410d-4d76-9ddb-9ac99d3125b8.png",
-      "/images/5/f3c9d271-39b2-495c-81a8-150d6220c554.png",
+      "/images/5/image_1.jpg",
+      "/images/5/image_2.jpg",
+      "/images/5/image_3.jpg",
+      "/images/5/image_4.jpg"
     ],
   },
   {
@@ -112,11 +107,10 @@ export const products: Product[] = [
     slug: "ecofire-camping-stove",
     manual: "/manuals/product_info_6.md",
     images: [
-      "/images/6/1beb3fb6-ae55-4a64-a3a4-bdccbd2fa8b9.png",
-      "/images/6/9f88331e-5607-4462-b216-10d690b196f9.png",
-      "/images/6/aaf5d1e9-adfc-4ec7-ba60-455b6fd08255.png",
-      "/images/6/bd7decf6-c177-44f5-97bc-7f793ccaf7bc.png",
-      "/images/6/e2c3bda7-ee50-4134-9a46-c0f58abae822.png",
+      "/images/6/image_1.jpg",
+      "/images/6/image_2.jpg",
+      "/images/6/image_3.jpg",
+      "/images/6/image_4.jpg"
     ],
   },
   {
@@ -130,11 +124,10 @@ export const products: Product[] = [
     slug: "cozynights-sleeping-bag",
     manual: "/manuals/product_info_7.md",
     images: [
-      "/images/7/088c709c-cf18-4253-8664-3e474b94635c.png",
-      "/images/7/1a8555cc-a1e4-4fae-9624-8eacfbe64bc8.png",
-      "/images/7/45e09e69-17c4-47d9-a501-2f8177e34349.png",
-      "/images/7/5df18ce1-7751-4100-9996-279ba57265f6.png",
-      "/images/7/d4eb8b2d-ef94-4aea-a76e-32f1bdb0457c.png",
+      "/images/7/image_1.jpg",
+      "/images/7/image_2.jpg",
+      "/images/7/image_3.jpg",
+      "/images/7/image_4.jpg"
     ],
   },
   {
@@ -148,11 +141,10 @@ export const products: Product[] = [
     slug: "alpine-explorer-tent",
     manual: "/manuals/product_info_8.md",
     images: [
-      "/images/8/3a9b1875-9114-4a53-adeb-4a79bf63c29f.png",
-      "/images/8/4a970f66-d6fa-4fef-8d6d-7d699f37e056.png",
-      "/images/8/95c39d34-404e-4c47-862f-b71e9acae275.png",
-      "/images/8/9bae9074-5f03-4093-b179-e22ffc81073d.png",
-      "/images/8/b70c8c04-f1b5-41b8-80b6-a21f7cbe01c0.png",
+      "/images/8/image_1.jpg",
+      "/images/8/image_2.jpg",
+      "/images/8/image_3.jpg",
+      "/images/8/image_4.jpg"
     ],
   },
   {
@@ -166,11 +158,10 @@ export const products: Product[] = [
     slug: "summitclimber-backpack",
     manual: "/manuals/product_info_9.md",
     images: [
-      "/images/9/06d43b19-8fa0-4173-8f14-4d15762fee06.png",
-      "/images/9/4011ff72-a468-4ad7-89e5-dfc4173715f2.png",
-      "/images/9/6291aedd-1873-42a6-aca9-b51cd4880fa8.png",
-      "/images/9/a7c58e38-4e60-4ac9-89c4-0b708c806d8c.png",
-      "/images/9/b3b04bbd-5ece-45bb-8bd2-bf6c6a619c66.png",
+      "/images/9/image_1.jpg",
+      "/images/9/image_2.jpg",
+      "/images/9/image_3.jpg",
+      "/images/9/image_4.jpg"
     ],
   },
   {
@@ -184,12 +175,10 @@ export const products: Product[] = [
     slug: "trailblaze-hiking-pants",
     manual: "/manuals/product_info_10.md",
     images: [
-      "/images/10/024934d4-5630-4ec2-a439-29bd7a9f28a0.png",
-      "/images/10/0fc43560-c387-4366-a914-91308186344d.png",
-      "/images/10/273b611f-dd6f-4b9f-b329-e48fe7ff39f9.png",
-      "/images/10/5a8b7c17-8fa9-450d-83ee-99b2cc9c8685.png",
-      "/images/10/9383b6d4-da4d-4f99-8071-4a0e6e1d219d.png",
-      "/images/10/d950d148-3fd7-45f3-8eae-1ac83a60c880.png",
+      "/images/10/image_1.jpg",
+      "/images/10/image_2.jpg",
+      "/images/10/image_3.jpg",
+      "/images/10/image_4.jpg"
     ],
   },
   {
@@ -203,11 +192,10 @@ export const products: Product[] = [
     slug: "trailwalker-hiking-shoes",
     manual: "/manuals/product_info_11.md",
     images: [
-      "/images/11/10b59349-0c6c-4d0b-a459-8a20037a6c2d.png",
-      "/images/11/27c5ac9a-6a43-4f9e-81ca-9abdcddee1d1.png",
-      "/images/11/5abf43e4-85b1-460f-bb30-563fb623d14e.png",
-      "/images/11/997a0954-3952-401b-869d-ff16fb97d0f2.png",
-      "/images/11/c5ee06a6-5caf-46ed-b6c2-2c312a8ae677.png",
+      "/images/11/image_1.jpg",
+      "/images/11/image_2.jpg",
+      "/images/11/image_3.jpg",
+      "/images/11/image_4.jpg"
     ],
   },
   {
@@ -221,11 +209,10 @@ export const products: Product[] = [
     slug: "trekmaster-camping-chair",
     manual: "/manuals/product_info_12.md",
     images: [
-      "/images/12/1fc8a3a0-296b-4cee-b9eb-3d5b62636e18.png",
-      "/images/12/20392650-1114-49b6-9626-4b760cb6e80e.png",
-      "/images/12/47433b71-f823-4865-8ed7-fa50b3f23ad6.png",
-      "/images/12/5359d889-47d1-4336-aa3e-79d135d4f733.png",
-      "/images/12/95a02ac2-cccb-471a-914c-fd4d5b6f834e.png",
+      "/images/12/image_1.jpg",
+      "/images/12/image_2.jpg",
+      "/images/12/image_3.jpg",
+      "/images/12/image_4.jpg"
     ],
   },
   {
@@ -239,11 +226,10 @@ export const products: Product[] = [
     slug: "powerburner-camping-stove",
     manual: "/manuals/product_info_13.md",
     images: [
-      "/images/13/1b8557cf-dede-4a88-bfc7-ae2edd01fdbe.png",
-      "/images/13/34421e0a-2913-41a0-a91e-db0e0eee3ae6.png",
-      "/images/13/5daee11a-b229-47fa-afd3-777cce801e9a.png",
-      "/images/13/865112e9-d986-46c6-a871-524d6bdb96c7.png",
-      "/images/13/e6e34709-d739-4d25-9ec7-d901d61c425e.png",
+      "/images/13/image_1.jpg",
+      "/images/13/image_2.jpg",
+      "/images/13/image_3.jpg",
+      "/images/13/image_4.jpg"
     ],
   },
   {
@@ -257,11 +243,10 @@ export const products: Product[] = [
     slug: "mountaindream-sleeping-bag",
     manual: "/manuals/product_info_14.md",
     images: [
-      "/images/14/0f53cfca-7fa8-4719-8b52-08cac3805dfc.png",
-      "/images/14/6fe35e2a-09cc-4324-8031-8a9591cf803e.png",
-      "/images/14/b9fc22f2-13a9-43a7-9ba9-2ed16f624502.png",
-      "/images/14/c94159a2-c070-4676-8a4b-5ccb5401678a.png",
-      "/images/14/cfa0d3c7-d5bc-4010-abf0-4a7ce0026f3b.png",
+      "/images/14/image_1.jpg",
+      "/images/14/image_2.jpg",
+      "/images/14/image_3.jpg",
+      "/images/14/image_4.jpg"
     ],
   },
   {
@@ -275,11 +260,10 @@ export const products: Product[] = [
     slug: "skyview-2-person-tent",
     manual: "/manuals/product_info_15.md",
     images: [
-      "/images/15/4e94736c-16ed-42cd-91ac-cda8f770e71a.png",
-      "/images/15/650446c9-9816-4989-94cf-0c93cc3ba0d0.png",
-      "/images/15/97c8f4ec-d2d4-4041-9d39-994823c47e45.png",
-      "/images/15/de767450-ad37-4e43-b742-77e8c8cff7d5.png",
-      "/images/15/f76473ea-6303-4f1a-adc5-1f63bc818555.png",
+      "/images/15/image_1.jpg",
+      "/images/15/image_2.jpg",
+      "/images/15/image_3.jpg",
+      "/images/15/image_4.jpg"
     ],
   },
   {
@@ -293,11 +277,10 @@ export const products: Product[] = [
     slug: "traillite-daypack",
     manual: "/manuals/product_info_16.md",
     images: [
-      "/images/16/0cfdd130-80da-467b-9472-8135fef73464.png",
-      "/images/16/1b0d996c-bf9a-439b-8341-77ee41dc5859.png",
-      "/images/16/624d0398-c817-4912-98b2-ffa835db3077.png",
-      "/images/16/a9240309-a502-47e6-b2b2-fb4954fa332f.png",
-      "/images/16/f5a39d10-2531-464e-b7d2-2d11385d99f7.png",
+      "/images/16/image_1.jpg",
+      "/images/16/image_2.jpg",
+      "/images/16/image_3.jpg",
+      "/images/16/image_4.jpg"
     ],
   },
   {
@@ -311,11 +294,10 @@ export const products: Product[] = [
     slug: "rainguard-hiking-jacket",
     manual: "/manuals/product_info_17.md",
     images: [
-      "/images/17/07203c6a-9eb6-4e6f-bc8f-d6ad43ff2cee.png",
-      "/images/17/40b992fa-190e-46d6-87f1-2a6583f66a05.png",
-      "/images/17/b77e9f01-195b-4870-bc86-c4f988bc71e8.png",
-      "/images/17/c2324487-ebe5-4872-9083-12e5f4b574e4.png",
-      "/images/17/f54405f4-5194-4586-9be6-9e22ed09a24e.png",
+      "/images/17/image_1.jpg",
+      "/images/17/image_2.jpg",
+      "/images/17/image_3.jpg",
+      "/images/17/image_4.jpg"
     ],
   },
   {
@@ -329,11 +311,10 @@ export const products: Product[] = [
     slug: "trekstar-hiking-sandals",
     manual: "/manuals/product_info_18.md",
     images: [
-      "/images/18/23e88043-e29b-47e5-8320-a228d12193a1.png",
-      "/images/18/32154d0d-6a8b-4924-8a2d-a65d119c626e.png",
-      "/images/18/4385b73d-7176-4626-80ae-2bad558a0ccb.png",
-      "/images/18/ce076c33-6745-4cf8-ae9b-99348eb45702.png",
-      "/images/18/fc768821-ce57-4a88-ae15-5d18d4dd55c8.png",
+      "/images/18/image_1.jpg",
+      "/images/18/image_2.jpg",
+      "/images/18/image_3.jpg",
+      "/images/18/image_4.jpg"
     ],
   },
   {
@@ -347,12 +328,10 @@ export const products: Product[] = [
     slug: "adventure-dining-table",
     manual: "/manuals/product_info_19.md",
     images: [
-      "/images/19/4cb47cf4-5f13-4822-85b4-2c8c8408db37.png",
-      "/images/19/6c9b8042-69f9-4923-8ba8-a77e927628f2.png",
-      "/images/19/a9cc514d-c8ea-4a95-b5f6-a38e4b57f517.png",
-      "/images/19/b28ca5bd-f703-4ace-8feb-e36f2c9c8a97.png",
-      "/images/19/bdf5977d-ce2f-4bcf-b0d9-49833645f105.png",
-      "/images/19/c0cce38c-bb45-469a-aa17-843dd9e53308.png",
+      "/images/19/image_1.jpg",
+      "/images/19/image_2.jpg",
+      "/images/19/image_3.jpg",
+      "/images/19/image_4.jpg"
     ],
   },
   {
@@ -366,11 +345,10 @@ export const products: Product[] = [
     slug: "compactcook-camping-stove",
     manual: "/manuals/product_info_20.md",
     images: [
-      "/images/20/13767aae-6809-475d-8093-d18e3070952b.png",
-      "/images/20/341a7ade-3d6f-43cf-8105-3099a935839b.png",
-      "/images/20/7e626010-0ad0-4e9c-9f87-f2e1afdfc1dd.png",
-      "/images/20/919e1e2a-b1e1-4b5f-a223-e25454fa0740.png",
-      "/images/20/ab8b6369-d14f-4d01-a3af-59cf0779180b.png",
+      "/images/20/image_1.jpg",
+      "/images/20/image_2.jpg",
+      "/images/20/image_3.jpg",
+      "/images/20/image_4.jpg"
     ],
   },
 ];
@@ -384,14 +362,14 @@ export interface Category {
 
 export const categories: Category[] = [
   {
-    name: "Tents",
+    name: "智能照明系统",
     slug: "tents",
     description:
-      "Unfold adventure with Contoso's range of tents - your portable home under the stars. From intimate two-person camping shelters to family-sized canopies, our tents are your ticket to escaping the ordinary and embracing the great outdoors.",
+      "点亮智慧生活，感受温暖氛围。Contoso智能照明系统不仅提供多种灯光模式，还能根据你的需求自动调节亮度和色温。无论是工作、休闲还是聚会，智能照明都能为你营造最适合的环境。通过手机或语音控制，轻松掌握每一盏灯的状态，让你的家居生活更加便捷和舒适。",
     products: [
       {
         id: 1,
-        name: "TrailMaster X4 Tent",
+        name: "光影魔法智能灯泡 A100",
         price: 250.0,
         category: "Tents",
         brand: "OutdoorLiving",
@@ -400,16 +378,15 @@ export const categories: Category[] = [
         slug: "trailmaster-x4-tent",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/1/242e7165-7c79-4f97-8e63-280f9f8982e2.png",
-          "/images/1/42614d79-4013-4303-9750-7c48f3fb61a9.png",
-          "/images/1/6a3111b5-3803-473b-a3dd-12056becea0a.png",
-          "/images/1/cb803f98-9bfa-4156-b0ee-df0581ae2862.png",
-          "/images/1/ff681635-0ce2-4c9a-b227-58de609e3a4e.png",
+          "/images/3/image_3.jpg",
+          // "/images/1/image_2.jpg",
+          // "/images/1/image_3.jpg",
+          // "/images/1/image_4.jpg"
         ],
       },
       {
         id: 8,
-        name: "Alpine Explorer Tent",
+        name: "幻彩调光器 B200",
         price: 350.0,
         category: "Tents",
         brand: "AlpineGear",
@@ -418,16 +395,12 @@ export const categories: Category[] = [
         slug: "alpine-explorer-tent",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/8/3a9b1875-9114-4a53-adeb-4a79bf63c29f.png",
-          "/images/8/4a970f66-d6fa-4fef-8d6d-7d699f37e056.png",
-          "/images/8/95c39d34-404e-4c47-862f-b71e9acae275.png",
-          "/images/8/9bae9074-5f03-4093-b179-e22ffc81073d.png",
-          "/images/8/b70c8c04-f1b5-41b8-80b6-a21f7cbe01c0.png",
+          "/images/3/image_2.jpg",
         ],
       },
       {
         id: 15,
-        name: "SkyView 2-Person Tent",
+        name: "智慧开关 C300",
         price: 200.0,
         category: "Tents",
         brand: "OutdoorLiving",
@@ -436,24 +409,20 @@ export const categories: Category[] = [
         slug: "skyview-2-person-tent",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/15/4e94736c-16ed-42cd-91ac-cda8f770e71a.png",
-          "/images/15/650446c9-9816-4989-94cf-0c93cc3ba0d0.png",
-          "/images/15/97c8f4ec-d2d4-4041-9d39-994823c47e45.png",
-          "/images/15/de767450-ad37-4e43-b742-77e8c8cff7d5.png",
-          "/images/15/f76473ea-6303-4f1a-adc5-1f63bc818555.png",
+          "/images/3/image_1.jpg",
         ],
       },
     ],
   },
   {
-    name: "Backpacks",
+    name: "智能安防系统",
     slug: "backpacks",
     description:
-      "Surely, life's an adventure, and our Backpacks category is equipped to accompany you on every twist and turn! Resilient, stylish, and designed with your travel needs in mind, these backpacks are trail-ready for the mountain tops, city crossings, or anywhere your wanderlust spirit calls you. Experience the freedom of going hands-free and let your back bear the pack, as you enjoy the spontaneity of the great outdoors.",
+      "安心守护，从未如此简单。Contoso智能安防系统包括智能门锁、监控摄像头、烟雾探测器等多种设备，提供全方位的家庭安全保障。实时监控家中动态，异常情况及时报警，让你无论身处何地都能安心无忧。智能安防系统不仅保护你的财产，更守护你的家人安全。",
     products: [
       {
         id: 2,
-        name: "Adventurer Pro Backpack",
+        name: "守护者智能门锁 D400",
         price: 90.0,
         category: "Backpacks",
         brand: "HikeMate",
@@ -462,16 +431,15 @@ export const categories: Category[] = [
         slug: "adventurer-pro-backpack",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/2/0b0e0e52-e3bf-4bf7-b1e1-3989c91d51a9.png",
-          "/images/2/5b73df27-5275-4437-b7cf-45b1eee175fb.png",
-          "/images/2/6cc997c4-da5d-432c-91f7-216a21d7e690.png",
-          "/images/2/791d0836-e0ad-4b46-bc79-1abcf292b700.png",
-          "/images/2/93afa1a1-d234-409c-ac8e-e0b49dbe79a1.png",
+          "/images/2/image_1.jpg",
+          "/images/2/image_2.jpg",
+          "/images/2/image_3.jpg",
+          "/images/2/image_4.jpg"
         ],
       },
       {
         id: 9,
-        name: "SummitClimber Backpack",
+        name: "鹰眼监控摄像头 E500",
         price: 120.0,
         category: "Backpacks",
         brand: "HikeMate",
@@ -480,16 +448,12 @@ export const categories: Category[] = [
         slug: "summitclimber-backpack",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/9/06d43b19-8fa0-4173-8f14-4d15762fee06.png",
-          "/images/9/4011ff72-a468-4ad7-89e5-dfc4173715f2.png",
-          "/images/9/6291aedd-1873-42a6-aca9-b51cd4880fa8.png",
-          "/images/9/a7c58e38-4e60-4ac9-89c4-0b708c806d8c.png",
-          "/images/9/b3b04bbd-5ece-45bb-8bd2-bf6c6a619c66.png",
+          "/images/21/image_1.jpg"
         ],
       },
       {
         id: 16,
-        name: "TrailLite Daypack",
+        name: "安心烟雾探测器 F600",
         price: 60.0,
         category: "Backpacks",
         brand: "HikeMate",
@@ -498,24 +462,20 @@ export const categories: Category[] = [
         slug: "traillite-daypack",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/16/0cfdd130-80da-467b-9472-8135fef73464.png",
-          "/images/16/1b0d996c-bf9a-439b-8341-77ee41dc5859.png",
-          "/images/16/624d0398-c817-4912-98b2-ffa835db3077.png",
-          "/images/16/a9240309-a502-47e6-b2b2-fb4954fa332f.png",
-          "/images/16/f5a39d10-2531-464e-b7d2-2d11385d99f7.png",
+          "/images/21/image_2.jpg"
         ],
       },
     ],
   },
   {
-    name: "Hiking Clothing",
+    name: "智能娱乐系统",
     slug: "hiking-clothing",
     description:
-      "Step into nature in comfort and style with Contoso Outdoor's Hiking Clothing collection - your ultimate companion on every trek! This range boasts the perfect ensemble to protect you from the elements, keep you cool on the ascent, and warm when temperatures drop. From lush valleys to mountain peaks, embrace the great outdoors with gear designed not just for the journey, but for the exhilarating feeling it brings!",
+      "娱乐升级，畅享视听盛宴。Contoso智能娱乐系统提供家庭影院、背景音乐和智能音响等设备，带来影院级的视听享受。无论是观看电影、听音乐还是玩游戏，智能娱乐系统都能为你提供最震撼的体验。让每一个家庭时光都充满欢乐与精彩，尽享娱乐的无限可能。",
     products: [
       {
         id: 3,
-        name: "Summit Breeze Jacket",
+        name: "家庭影院梦幻版 M1300",
         price: 120.0,
         category: "Hiking Clothing",
         brand: "MountainStyle",
@@ -524,16 +484,12 @@ export const categories: Category[] = [
         slug: "summit-breeze-jacket",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/3/22ae32ed-7f8f-4238-b7f1-fe5f1dd5a449.png",
-          "/images/3/09887388-3a47-4198-ab19-e18d23768ac5.png",
-          "/images/3/2faec00a-4ee2-4711-aec9-240fd6e342c5.png",
-          "/images/3/a07b9539-e3ef-4dee-969f-076b0d7ac448.png",
-          "/images/3/f8a023c8-169c-443a-b0bb-b63409d7933f.png",
+          "/images/15/image_2.jpg",
         ],
       },
       {
         id: 10,
-        name: "TrailBlaze Hiking Pants",
+        name: "音乐魔盒背景音乐系统 N1400",
         price: 75.0,
         category: "Hiking Clothing",
         brand: "MountainStyle",
@@ -542,17 +498,12 @@ export const categories: Category[] = [
         slug: "trailblaze-hiking-pants",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/10/024934d4-5630-4ec2-a439-29bd7a9f28a0.png",
-          "/images/10/0fc43560-c387-4366-a914-91308186344d.png",
-          "/images/10/273b611f-dd6f-4b9f-b329-e48fe7ff39f9.png",
-          "/images/10/5a8b7c17-8fa9-450d-83ee-99b2cc9c8685.png",
-          "/images/10/9383b6d4-da4d-4f99-8071-4a0e6e1d219d.png",
-          "/images/10/d950d148-3fd7-45f3-8eae-1ac83a60c880.png",
+          "/images/1/image_2.jpg",
         ],
       },
       {
         id: 17,
-        name: "RainGuard Hiking Jacket",
+        name: "震撼音效智能音响 O1500",
         price: 110.0,
         category: "Hiking Clothing",
         brand: "MountainStyle",
@@ -561,24 +512,20 @@ export const categories: Category[] = [
         slug: "rainguard-hiking-jacket",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/17/07203c6a-9eb6-4e6f-bc8f-d6ad43ff2cee.png",
-          "/images/17/40b992fa-190e-46d6-87f1-2a6583f66a05.png",
-          "/images/17/b77e9f01-195b-4870-bc86-c4f988bc71e8.png",
-          "/images/17/c2324487-ebe5-4872-9083-12e5f4b574e4.png",
-          "/images/17/f54405f4-5194-4586-9be6-9e22ed09a24e.png",
+          "/images/1/image_1.jpg"
         ],
       },
     ],
   },
   {
-    name: "Hiking Footwear",
+    name: "智能家电",
     slug: "hiking-footwear",
     description:
-      "Step into our Hiking Footwear category, your trusty companion for every trail adventure! Here, you'll find sturdy boots and lightweight shoes, all designed to guide you through whispering woods, sun-touched mountaintops, or the path less trekked with utmost comfort and confidence. So, tie your laces, feel the earth beneath your feet and let the great outdoors be your playground.",
+      "智能家电，解放双手，享受生活。Contoso智能家电系列涵盖智能冰箱、洗衣机、空调等多种设备，通过智能控制实现远程操作和自动化管理。无论是调节室内温度还是安排洗衣时间，智能家电都能为你提供最便捷的解决方案，让你有更多时间享受生活中的美好时刻。",
     products: [
       {
         id: 4,
-        name: "TrekReady Hiking Boots",
+        name: "智能冰箱 G700",
         price: 140.0,
         category: "Hiking Footwear",
         brand: "TrekReady",
@@ -587,16 +534,12 @@ export const categories: Category[] = [
         slug: "trekready-hiking-boots",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/4/0889d8c0-bb85-4b77-a749-15682f693c49.png",
-          "/images/4/37204d04-e4bb-4140-811e-1f53b135f2ea.png",
-          "/images/4/8076ecb5-4e4d-4958-8b77-e0bad466cc8a.png",
-          "/images/4/8705bdcd-85f6-44c1-b043-84b4b8f44493.png",
-          "/images/4/8c9044bf-e9cb-4c15-a977-934533055792.png",
+          "/images/10/image_1.jpg",
         ],
       },
       {
         id: 11,
-        name: "TrailWalker Hiking Shoes",
+        name: "洁净大师智能洗衣机 H800",
         price: 110.0,
         category: "Hiking Footwear",
         brand: "TrekReady",
@@ -605,16 +548,12 @@ export const categories: Category[] = [
         slug: "trailwalker-hiking-shoes",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/11/10b59349-0c6c-4d0b-a459-8a20037a6c2d.png",
-          "/images/11/27c5ac9a-6a43-4f9e-81ca-9abdcddee1d1.png",
-          "/images/11/5abf43e4-85b1-460f-bb30-563fb623d14e.png",
-          "/images/11/997a0954-3952-401b-869d-ff16fb97d0f2.png",
-          "/images/11/c5ee06a6-5caf-46ed-b6c2-2c312a8ae677.png",
+          "/images/21/image_3.jpg",
         ],
       },
       {
         id: 18,
-        name: "TrekStar Hiking Sandals",
+        name: "清凉智享智能空调 I900",
         price: 70.0,
         category: "Hiking Footwear",
         brand: "TrekReady",
@@ -623,24 +562,20 @@ export const categories: Category[] = [
         slug: "trekstar-hiking-sandals",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/18/23e88043-e29b-47e5-8320-a228d12193a1.png",
-          "/images/18/32154d0d-6a8b-4924-8a2d-a65d119c626e.png",
-          "/images/18/4385b73d-7176-4626-80ae-2bad558a0ccb.png",
-          "/images/18/ce076c33-6745-4cf8-ae9b-99348eb45702.png",
-          "/images/18/fc768821-ce57-4a88-ae15-5d18d4dd55c8.png",
+          "/images/21/image_4.jpg",
         ],
       },
     ],
   },
   {
-    name: "Camping Tables",
+    name: "智能控制系统",
     slug: "camping-tables",
     description:
-      "Elevate your outdoor dining experience with Contoso Outdoors' range of Camping Tables - sturdy yet lightweight, designed to be your trusty sidekick from backyard barbeques to high mountain picnics. Let's turn every campsite into a comfort zone complete with a touch of home!",
+      "一键掌控，尽在指尖。Contoso智能控制系统集成智能音箱、遥控器和网关等设备，实现家庭设备的集中控制。通过语音指令或手机应用，你可以轻松控制家中的灯光、温度、音乐等，享受智能化带来的便捷与高效。让你的家居生活更加智能化，尽享科技带来的便利。",
     products: [
       {
         id: 5,
-        name: "BaseCamp Folding Table",
+        name: "超强信号路由器 J1000",
         price: 60.0,
         category: "Camping Tables",
         brand: "CampBuddy",
@@ -649,16 +584,12 @@ export const categories: Category[] = [
         slug: "basecamp-folding-table",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/5/0a9b0b18-0304-41a2-8367-155479b77985.png",
-          "/images/5/92c773f6-ed44-4570-992d-3e0d2af55cbf.png",
-          "/images/5/a1b30c60-bb66-4bef-a0b4-0766400e306c.png",
-          "/images/5/cf761719-410d-4d76-9ddb-9ac99d3125b8.png",
-          "/images/5/f3c9d271-39b2-495c-81a8-150d6220c554.png",
+          "/images/21/image_5.jpg",
         ],
       },
       {
         id: 12,
-        name: "TrekMaster Camping Chair",
+        name: "万能掌控智能遥控器 K1100",
         price: 50.0,
         category: "Camping Tables",
         brand: "CampBuddy",
@@ -667,16 +598,13 @@ export const categories: Category[] = [
         slug: "trekmaster-camping-chair",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/12/1fc8a3a0-296b-4cee-b9eb-3d5b62636e18.png",
-          "/images/12/20392650-1114-49b6-9626-4b760cb6e80e.png",
-          "/images/12/47433b71-f823-4865-8ed7-fa50b3f23ad6.png",
-          "/images/12/5359d889-47d1-4336-aa3e-79d135d4f733.png",
-          "/images/12/95a02ac2-cccb-471a-914c-fd4d5b6f834e.png",
+          "/images/21/image_6.jpg",
+
         ],
       },
       {
         id: 19,
-        name: "Adventure Dining Table",
+        name: "智能网关 L1200",
         price: 90.0,
         category: "Camping Tables",
         brand: "CampBuddy",
@@ -685,122 +613,113 @@ export const categories: Category[] = [
         slug: "adventure-dining-table",
         manual: "/manuals/product_info_8.md",
         images: [
-          "/images/19/4cb47cf4-5f13-4822-85b4-2c8c8408db37.png",
-          "/images/19/6c9b8042-69f9-4923-8ba8-a77e927628f2.png",
-          "/images/19/a9cc514d-c8ea-4a95-b5f6-a38e4b57f517.png",
-          "/images/19/b28ca5bd-f703-4ace-8feb-e36f2c9c8a97.png",
-          "/images/19/bdf5977d-ce2f-4bcf-b0d9-49833645f105.png",
-          "/images/19/c0cce38c-bb45-469a-aa17-843dd9e53308.png",
+          "/images/21/image_7.jpg",
+
         ],
       },
     ],
   },
-  {
-    name: "Camping Stoves",
-    slug: "camping-stoves",
-    description:
-      "Experience the joy of cooking under the open sky with our range of Camping Stoves. Perfect for the mountaineer foodie or the lakeside lounger, these stoves will turn your outdoor adventure into a gourmet getaway!",
-    products: [
-      {
-        id: 6,
-        name: "EcoFire Camping Stove",
-        price: 80.0,
-        category: "Camping Stoves",
-        brand: "EcoFire",
-        description:
-          "Introducing EcoFire's Camping Stove, your ultimate companion for every outdoor adventure! This portable wonder is precision-engineered with a lightweight and compact design, perfect for capturing that spirit of wanderlust. Made from high-quality stainless steel, it promises durability and steadfast performance. This stove is not only fuel-efficient but also offers an easy, intuitive operation that ensures hassle-free cooking. Plus, it's flexible, accommodating a variety of cooking methods whether you're boiling, grilling, or simmering under the starry sky. Its stable construction, quick setup, and adjustable flame control make cooking a breeze, while safety features protect you from any potential mishaps. And did we mention it also includes an effective wind protector and a carry case for easy transportation? But that's not all! The EcoFire Camping Stove is eco-friendly, designed to minimize environmental impact. So get ready to enhance your camping experience and enjoy delicious outdoor feasts with this unique, versatile stove!",
-        slug: "ecofire-camping-stove",
-        manual: "/manuals/product_info_8.md",
-        images: [
-          "/images/6/1beb3fb6-ae55-4a64-a3a4-bdccbd2fa8b9.png",
-          "/images/6/9f88331e-5607-4462-b216-10d690b196f9.png",
-          "/images/6/aaf5d1e9-adfc-4ec7-ba60-455b6fd08255.png",
-          "/images/6/bd7decf6-c177-44f5-97bc-7f793ccaf7bc.png",
-          "/images/6/e2c3bda7-ee50-4134-9a46-c0f58abae822.png",
-        ],
-      },
-      {
-        id: 13,
-        name: "PowerBurner Camping Stove",
-        price: 100.0,
-        category: "Camping Stoves",
-        brand: "PowerBurner",
-        description:
-          "Unleash your inner explorer with the PowerBurner Dual Burner Camping Stove. It's designed for the adventurous heart, with sturdy construction and a high heat output that makes boiling and cooking a breeze. This stove isn't just about strength\u2014it's got finesse too. With adjustable flame control, you can simmer, saut\u00e9, or sizzle with absolute precision. Its compact design and integrated carrying handle make transportation effortless. Moreover, it's crafted to defy the elements, boasting a wind-resistant exterior and piezo ignition system for quick, reliable starts. And when the cooking's done, its removable grates make cleanup swift and easy. Rugged, versatile and reliable, the PowerBurner marks a perfect blend of practicality and performance. So, why wait? Let's turn up the heat on your outdoor culinary adventures today.",
-        slug: "powerburner-camping-stove",
-        manual: "/manuals/product_info_8.md",
-        images: [
-          "/images/13/1b8557cf-dede-4a88-bfc7-ae2edd01fdbe.png",
-          "/images/13/34421e0a-2913-41a0-a91e-db0e0eee3ae6.png",
-          "/images/13/5daee11a-b229-47fa-afd3-777cce801e9a.png",
-          "/images/13/865112e9-d986-46c6-a871-524d6bdb96c7.png",
-          "/images/13/e6e34709-d739-4d25-9ec7-d901d61c425e.png",
-        ],
-      },
-      {
-        id: 20,
-        name: "CompactCook Camping Stove",
-        price: 60.0,
-        category: "Camping Stoves",
-        brand: "CompactCook",
-        description:
-          "Step into the great outdoors with the CompactCook Camping Stove, a convenient, lightweight companion perfect for all your culinary camping needs. Boasting a robust design built for harsh environments, you can whip up meals anytime, anywhere. Its wind-resistant and fuel-versatile features coupled with an efficient cooking performance, ensures you won't have to worry about the elements or helpless taste buds while on adventures. The easy ignition technology and adjustable flame control make cooking as easy as a walk in the park, while its compact, foldable design makes packing a breeze. Whether you're camping with family or hiking solo, this reliable, portable stove is an essential addition to your gear. With its sturdy construction and safety-focused design, the CompactCook Camping Stove is a step above the rest, providing durability, quality, and peace of mind. Be wild, be free, be cooked for with the CompactCook Camping Stove!",
-        slug: "compactcook-camping-stove",
-        manual: "/manuals/product_info_8.md",
-        images: [
-          "/images/20/13767aae-6809-475d-8093-d18e3070952b.png",
-          "/images/20/341a7ade-3d6f-43cf-8105-3099a935839b.png",
-          "/images/20/7e626010-0ad0-4e9c-9f87-f2e1afdfc1dd.png",
-          "/images/20/919e1e2a-b1e1-4b5f-a223-e25454fa0740.png",
-          "/images/20/ab8b6369-d14f-4d01-a3af-59cf0779180b.png",
-        ],
-      },
-    ],
-  },
-  {
-    name: "Sleeping Bags",
-    slug: "sleeping-bags",
-    description:
-      "Absolutely, snuggle into comfort after a day's adventure with Contoso Outdoors' Sleeping Bags! Whether cozying up under the stars or hibernating in your camping breaks, these sleeping bags offer a warm and inviting retreat from the wild outdoors. Specially designed for the wandering souls, it's outdoor slumber comfort, redefined!",
-    products: [
-      {
-        id: 7,
-        name: "CozyNights Sleeping Bag",
-        price: 100.0,
-        category: "Sleeping Bags",
-        brand: "CozyNights",
-        description:
-          "Embrace the great outdoors in any season with the lightweight CozyNights Sleeping Bag! This durable three-season bag is superbly designed to give hikers, campers, and backpackers comfort and warmth during spring, summer, and fall. With a compact design that folds down into a convenient stuff sack, you can whisk it away on any adventure without a hitch. The sleeping bag takes comfort seriously, featuring a handy hood, ample room and padding, and a reliable temperature rating. Crafted from high-quality polyester, it ensures long-lasting use and can even be zipped together with another bag for shared comfort. Whether you're gazing at stars or catching a quick nap between trails, the CozyNights Sleeping Bag makes it a treat. Don't just sleep\u2014 dream with CozyNights.",
-        slug: "cozynights-sleeping-bag",
-        manual: "/manuals/product_info_8.md",
-        images: [
-          "/images/7/088c709c-cf18-4253-8664-3e474b94635c.png",
-          "/images/7/1a8555cc-a1e4-4fae-9624-8eacfbe64bc8.png",
-          "/images/7/45e09e69-17c4-47d9-a501-2f8177e34349.png",
-          "/images/7/5df18ce1-7751-4100-9996-279ba57265f6.png",
-          "/images/7/d4eb8b2d-ef94-4aea-a76e-32f1bdb0457c.png",
-        ],
-      },
-      {
-        id: 14,
-        name: "MountainDream Sleeping Bag",
-        price: 130.0,
-        category: "Sleeping Bags",
-        brand: "MountainDream",
-        description:
-          "Meet the MountainDream Sleeping Bag: your new must-have companion for every outdoor adventure. Designed to handle 3-season camping with ease, it comes equipped with a premium synthetic insulation that will keep you cozy even when temperatures fall down to 15\u00b0F! Sporting a durable water-resistant nylon shell and soft breathable polyester lining, this bag doesn't sacrifice comfort for toughness. The star of the show is the contoured mummy shape that not only provides optimal heat retention but also cuts down on the weight. A smooth, snag-free YKK zipper with a unique anti-snag design allows for hassle-free operation, while the adjustable hood and full-length zipper baffle work together to ensure you stay warm all night long. Need to bring along some essentials? Not to worry! There's an interior pocket just for that. And when it's time to pack up? Just slip it into the included compression sack for easy storage and transport. Whether you're a backpacking pro or a camping novice, the MountainDream Sleeping Bag is the perfect blend of durability, warmth, and comfort that you've been looking for.",
-        slug: "mountaindream-sleeping-bag",
-        manual: "/manuals/product_info_8.md",
-        images: [
-          "/images/14/0f53cfca-7fa8-4719-8b52-08cac3805dfc.png",
-          "/images/14/6fe35e2a-09cc-4324-8031-8a9591cf803e.png",
-          "/images/14/b9fc22f2-13a9-43a7-9ba9-2ed16f624502.png",
-          "/images/14/c94159a2-c070-4676-8a4b-5ccb5401678a.png",
-          "/images/14/cfa0d3c7-d5bc-4010-abf0-4a7ce0026f3b.png",
-        ],
-      },
-    ],
-  },
+  // {
+  //   name: "Camping Stoves",
+  //   slug: "camping-stoves",
+  //   description:
+  //     "Experience the joy of cooking under the open sky with our range of Camping Stoves. Perfect for the mountaineer foodie or the lakeside lounger, these stoves will turn your outdoor adventure into a gourmet getaway!",
+  //   products: [
+  //     {
+  //       id: 6,
+  //       name: "EcoFire Camping Stove",
+  //       price: 80.0,
+  //       category: "Camping Stoves",
+  //       brand: "EcoFire",
+  //       description:
+  //         "Introducing EcoFire's Camping Stove, your ultimate companion for every outdoor adventure! This portable wonder is precision-engineered with a lightweight and compact design, perfect for capturing that spirit of wanderlust. Made from high-quality stainless steel, it promises durability and steadfast performance. This stove is not only fuel-efficient but also offers an easy, intuitive operation that ensures hassle-free cooking. Plus, it's flexible, accommodating a variety of cooking methods whether you're boiling, grilling, or simmering under the starry sky. Its stable construction, quick setup, and adjustable flame control make cooking a breeze, while safety features protect you from any potential mishaps. And did we mention it also includes an effective wind protector and a carry case for easy transportation? But that's not all! The EcoFire Camping Stove is eco-friendly, designed to minimize environmental impact. So get ready to enhance your camping experience and enjoy delicious outdoor feasts with this unique, versatile stove!",
+  //       slug: "ecofire-camping-stove",
+  //       manual: "/manuals/product_info_8.md",
+  //       images: [
+  //         "/images/6/image_1.jpg",
+  //         "/images/6/image_2.jpg",
+  //         "/images/6/image_3.jpg",
+  //         "/images/6/image_4.jpg"
+  //       ],
+  //     },
+  //     {
+  //       id: 13,
+  //       name: "PowerBurner Camping Stove",
+  //       price: 100.0,
+  //       category: "Camping Stoves",
+  //       brand: "PowerBurner",
+  //       description:
+  //         "Unleash your inner explorer with the PowerBurner Dual Burner Camping Stove. It's designed for the adventurous heart, with sturdy construction and a high heat output that makes boiling and cooking a breeze. This stove isn't just about strength\u2014it's got finesse too. With adjustable flame control, you can simmer, saut\u00e9, or sizzle with absolute precision. Its compact design and integrated carrying handle make transportation effortless. Moreover, it's crafted to defy the elements, boasting a wind-resistant exterior and piezo ignition system for quick, reliable starts. And when the cooking's done, its removable grates make cleanup swift and easy. Rugged, versatile and reliable, the PowerBurner marks a perfect blend of practicality and performance. So, why wait? Let's turn up the heat on your outdoor culinary adventures today.",
+  //       slug: "powerburner-camping-stove",
+  //       manual: "/manuals/product_info_8.md",
+  //       images: [
+  //         "/images/13/image_1.jpg",
+  //         "/images/13/image_2.jpg",
+  //         "/images/13/image_3.jpg",
+  //         "/images/13/image_4.jpg"
+  //       ],
+  //     },
+  //     {
+  //       id: 20,
+  //       name: "CompactCook Camping Stove",
+  //       price: 60.0,
+  //       category: "Camping Stoves",
+  //       brand: "CompactCook",
+  //       description:
+  //         "Step into the great outdoors with the CompactCook Camping Stove, a convenient, lightweight companion perfect for all your culinary camping needs. Boasting a robust design built for harsh environments, you can whip up meals anytime, anywhere. Its wind-resistant and fuel-versatile features coupled with an efficient cooking performance, ensures you won't have to worry about the elements or helpless taste buds while on adventures. The easy ignition technology and adjustable flame control make cooking as easy as a walk in the park, while its compact, foldable design makes packing a breeze. Whether you're camping with family or hiking solo, this reliable, portable stove is an essential addition to your gear. With its sturdy construction and safety-focused design, the CompactCook Camping Stove is a step above the rest, providing durability, quality, and peace of mind. Be wild, be free, be cooked for with the CompactCook Camping Stove!",
+  //       slug: "compactcook-camping-stove",
+  //       manual: "/manuals/product_info_8.md",
+  //       images: [
+  //         "/images/20/image_1.jpg",
+  //         "/images/20/image_2.jpg",
+  //         "/images/20/image_3.jpg",
+  //         "/images/20/image_4.jpg"
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Sleeping Bags",
+  //   slug: "sleeping-bags",
+  //   description:
+  //     "Absolutely, snuggle into comfort after a day's adventure with Contoso Outdoors' Sleeping Bags! Whether cozying up under the stars or hibernating in your camping breaks, these sleeping bags offer a warm and inviting retreat from the wild outdoors. Specially designed for the wandering souls, it's outdoor slumber comfort, redefined!",
+  //   products: [
+  //     {
+  //       id: 7,
+  //       name: "CozyNights Sleeping Bag",
+  //       price: 100.0,
+  //       category: "Sleeping Bags",
+  //       brand: "CozyNights",
+  //       description:
+  //         "Embrace the great outdoors in any season with the lightweight CozyNights Sleeping Bag! This durable three-season bag is superbly designed to give hikers, campers, and backpackers comfort and warmth during spring, summer, and fall. With a compact design that folds down into a convenient stuff sack, you can whisk it away on any adventure without a hitch. The sleeping bag takes comfort seriously, featuring a handy hood, ample room and padding, and a reliable temperature rating. Crafted from high-quality polyester, it ensures long-lasting use and can even be zipped together with another bag for shared comfort. Whether you're gazing at stars or catching a quick nap between trails, the CozyNights Sleeping Bag makes it a treat. Don't just sleep\u2014 dream with CozyNights.",
+  //       slug: "cozynights-sleeping-bag",
+  //       manual: "/manuals/product_info_8.md",
+  //       images: [
+  //         "/images/7/image_1.jpg",
+  //         "/images/7/image_2.jpg",
+  //         "/images/7/image_3.jpg",
+  //         "/images/7/image_4.jpg"
+  //       ],
+  //     },
+  //     {
+  //       id: 14,
+  //       name: "MountainDream Sleeping Bag",
+  //       price: 130.0,
+  //       category: "Sleeping Bags",
+  //       brand: "MountainDream",
+  //       description:
+  //         "Meet the MountainDream Sleeping Bag: your new must-have companion for every outdoor adventure. Designed to handle 3-season camping with ease, it comes equipped with a premium synthetic insulation that will keep you cozy even when temperatures fall down to 15\u00b0F! Sporting a durable water-resistant nylon shell and soft breathable polyester lining, this bag doesn't sacrifice comfort for toughness. The star of the show is the contoured mummy shape that not only provides optimal heat retention but also cuts down on the weight. A smooth, snag-free YKK zipper with a unique anti-snag design allows for hassle-free operation, while the adjustable hood and full-length zipper baffle work together to ensure you stay warm all night long. Need to bring along some essentials? Not to worry! There's an interior pocket just for that. And when it's time to pack up? Just slip it into the included compression sack for easy storage and transport. Whether you're a backpacking pro or a camping novice, the MountainDream Sleeping Bag is the perfect blend of durability, warmth, and comfort that you've been looking for.",
+  //       slug: "mountaindream-sleeping-bag",
+  //       manual: "/manuals/product_info_8.md",
+  //       images: [
+  //         "/images/14/image_1.jpg",
+  //         "/images/14/image_2.jpg",
+  //         "/images/14/image_3.jpg",
+  //         "/images/14/image_4.jpg"
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export const getCategories = (): Category[] => {

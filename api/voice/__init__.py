@@ -117,7 +117,7 @@ class RealtimeClient:
                 input_audio_transcription=SessionInputAudioTranscription(
                     model="whisper-1",
                 ),
-                voice="shimmer",
+                voice="echo",
                 instructions=instructions,
                 modalities=["text", "audio"],
             )

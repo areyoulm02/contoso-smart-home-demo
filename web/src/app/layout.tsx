@@ -6,9 +6,9 @@ import styles from './layout.module.css';
 
 
 export const metadata: Metadata = {
-  title: "Contoso Outdoors",
+  title: "Contoso Smart Home",
   description:
-    "Embrace Adventure with Contoso Outdoors - Your Ultimate Partner in Exploring the Unseen!",
+    "Contoso智能家居，连接您的未来生活.",
 };
 
 export default function RootLayout({
