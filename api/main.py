@@ -16,6 +16,8 @@ from api.session import SessionManager
 from api.suggestions import SimpleMessage, create_suggestion, suggestion_requested
 from dotenv import load_dotenv
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+from fastapi.middleware.cors import CORSMiddleware
+
 
 from api.telemetry import init_tracing
 from api.voice import Message, RealtimeClient
