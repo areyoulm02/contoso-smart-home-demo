@@ -89,9 +89,36 @@ const Chat = ({ options }: Props) => {
 
   /** Events */
   const serverCallback = (data: SocketMessage) => {
+    if (data.role === "error") {
+      if (stateRef.current) {
+        // 更新之前的waiting消息为done
+        stateRef.current.turns.forEach((turn) => {
+          if (turn.status === "waiting") {
+            turn.status = "done";
+            turn.message = data.content;
+          }
+        });
+
+        // 插入错误消息
+        // stateRef.current.sendFullMessage({
+        //   name: "系统错误",
+        //   avatar: "",
+        //   image: null,
+        //   message: data.content,
+        //   status: "done",
+        //   type: "assistant",
+        // });
+
+        scrollChat();
+      }
+      return;
+    }
+
+    // 正常消息处理逻辑...
     if (stateRef.current && contextRef.current) {
       const client = new ActionClient(stateRef.current, contextRef.current);
       client.execute(data);
+      scrollChat();
     }
   };
 

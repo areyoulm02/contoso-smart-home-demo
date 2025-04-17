@@ -40,7 +40,10 @@ export interface ChatState {
   completeAssistantMessage: () => void;
   resetChat: () => void;
   setThreadId: (threadId: string) => void;
+  
 }
+
+
 
 export const useChatStore = create<ChatState>()(
   persist(

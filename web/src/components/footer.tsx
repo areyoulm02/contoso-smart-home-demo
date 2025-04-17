@@ -13,9 +13,6 @@ const Footer = async ({
 
 
   const categories = getCategories();
-  
-  const legal = ["Site Terms of Use", "Plan Terms & Conditions", "Acceptable Use Policy"];
-  const legalLinks = ["#", "#", "#"];
 
   return (
     <Block

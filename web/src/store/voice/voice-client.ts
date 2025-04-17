@@ -41,7 +41,7 @@ class VoiceClient {
 
     await this.player.init(24000);
 
-    this.recorder = new Recorder((buffer: any) => {
+    this.recorder = new Recorder((buffer: ArrayBuffer) => {
       const base64 = btoa(String.fromCharCode(...new Uint8Array(buffer)));
       this.socket!.send({ type: "audio", payload: base64 });
     });

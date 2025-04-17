@@ -20,7 +20,7 @@ from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 from api.telemetry import init_tracing
 from api.voice import Message, RealtimeClient
 
-load_dotenv()
+# load_dotenv()
 
 AZURE_VOICE_ENDPOINT = "https://jingr-m6zz4k41-eastus2.openai.azure.com"
 AZURE_VOICE_KEY = "4YH4dKi7zi3FYOvWBJzADIoF6gMgb5PdLejvSrANh3isw3Vnx7Z6JQQJ99BBACHYHv6XJ3w3AAAAACOGl5mT"
