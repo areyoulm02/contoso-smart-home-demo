@@ -16,14 +16,16 @@ from api.session import SessionManager
 from api.suggestions import SimpleMessage, create_suggestion, suggestion_requested
 from dotenv import load_dotenv
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+from fastapi.middleware.cors import CORSMiddleware
+
 
 from api.telemetry import init_tracing
 from api.voice import Message, RealtimeClient
 
-load_dotenv()
+# load_dotenv()
 
-AZURE_VOICE_ENDPOINT = os.getenv("AZURE_VOICE_ENDPOINT", "fake_endpoint")
-AZURE_VOICE_KEY = os.getenv("AZURE_VOICE_KEY", "fake_key")
+AZURE_VOICE_ENDPOINT = "https://jingr-m6zz4k41-eastus2.openai.azure.com"
+AZURE_VOICE_KEY = "4YH4dKi7zi3FYOvWBJzADIoF6gMgb5PdLejvSrANh3isw3Vnx7Z6JQQJ99BBACHYHv6XJ3w3AAAAACOGl5mT"
 
 LOCAL_TRACING_ENABLED = os.getenv("LOCAL_TRACING_ENABLED", "true") == "true"
 init_tracing(local_tracing=LOCAL_TRACING_ENABLED)
@@ -32,8 +34,8 @@ base_path = Path(__file__).parent
 
 # Load products and purchases
 # NOTE: This would generally be accomplished by querying a database
-products = json.loads((base_path / "products.json").read_text())
-purchases = json.loads((base_path / "purchases.json").read_text())
+products = json.loads((base_path / "products.json").read_text(encoding='utf-8'))
+purchases = json.loads((base_path / "purchases.json").read_text(encoding='utf-8'))
 
 # jinja2 template environment
 env = Environment(loader=FileSystemLoader(base_path / "voice"))
@@ -139,7 +141,7 @@ async def voice_endpoint(websocket: WebSocket):
             # create voice system message
             # TODO: retrieve context from chat messages via thread id
             system_message = env.get_template("script.jinja2").render(
-                customer=settings["user"] if "user" in settings else "Seth",
+                customer=settings["user"] if "user" in settings else "Louise",
                 purchases=purchases,
                 context=json.loads(message.payload),
                 products=products,

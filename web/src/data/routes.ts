@@ -3,17 +3,17 @@
 export const routes = [
   {
     id: "support",
-    title: "Support",
+    title: "支持",
     href: "#",
   },
   {
     id: "about-us",
-    title: "About Us",
+    title: "关于我们",
     href: "#",
   },
   {
     id: "jobs",
-    title: "Jobs",
+    title: "招聘通道",
     href: "#",
   },
 ];

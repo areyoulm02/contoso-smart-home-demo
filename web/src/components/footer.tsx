@@ -13,9 +13,6 @@ const Footer = async ({
 
 
   const categories = getCategories();
-  
-  const legal = ["Site Terms of Use", "Plan Terms & Conditions", "Acceptable Use Policy"];
-  const legalLinks = ["#", "#", "#"];
 
   return (
     <Block
@@ -37,7 +34,7 @@ const Footer = async ({
       </div>
 
       <div className={styles.categories}>
-        <div>What we do</div>
+        <div>产品线</div>
         <div className={styles.innerCategory}>
           {categories.slice(0, 4).map((category) => (
             <Link href={"#"} key={category.slug} className={styles.category}>
@@ -61,7 +58,7 @@ const Footer = async ({
         </div>
       </div>
       <div className={styles.categories}>
-        <div>Need Help?</div>
+        <div>帮助</div>
         <div className={styles.innerCategory}>
           {routes.map((route) => (
             <Link href={route.href} key={route.id} className={styles.category}>
@@ -70,8 +67,8 @@ const Footer = async ({
           ))}
         </div>
       </div>
-      <div className={styles.categories}>
-        <div>Legal</div>
+      {/* <div className={styles.categories}>
+        <div>法律条款</div>
         <div className={styles.innerCategory}>
           {legal.map((l, i) => (
             <Link href={legalLinks[i]} key={l} className={styles.category}>
@@ -79,7 +76,7 @@ const Footer = async ({
             </Link>
           ))}
         </div>
-      </div>
+      </div> */}
       <div className={styles.grow} />
     </Block>
   );

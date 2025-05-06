@@ -4,11 +4,11 @@
 }
 
 .categoryTitle {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1;
   margin-bottom: 0.75rem;
   font-weight: 600;
-  text-shadow: 2px 2px 2px var(--color-zinc-500);
+  /* text-shadow: 2px 2px 2px var(--color-sky-900); */
 }
 
 .oddSection {
@@ -22,13 +22,13 @@
 }
 
 .categoryDescription {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.categoryDescription::first-letter {
+/* .categoryDescription::first-letter {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 3.75rem;
@@ -36,7 +36,7 @@
   font-weight: 700;
   float: left;
   margin-right: 5px;
-}
+} */
 
 .categoryDescription::first-line {
   text-transform: uppercase;

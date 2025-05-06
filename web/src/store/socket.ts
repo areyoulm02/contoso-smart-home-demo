@@ -27,6 +27,8 @@ export interface Context {
 export interface SocketMessage {
     type: "action" | "assistant" | "context";
     payload: Action | Assistant | Context;
+    content:string;
+    role?: string;
 }
 
 

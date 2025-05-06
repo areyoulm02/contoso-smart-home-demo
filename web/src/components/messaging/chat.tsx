@@ -63,7 +63,7 @@ const Chat = ({ options }: Props) => {
     if (stateRef.current) {
       // get current message
       const turn: Turn = {
-        name: user?.name || "Seth Juarez",
+        name: user?.name || "Louise Han",
         avatar: user?.image || "undefined",
         image: stateRef.current.currentImage,
         message: stateRef.current.message,
@@ -73,7 +73,7 @@ const Chat = ({ options }: Props) => {
 
       // can replace with current user
       stateRef.current.sendMessage(
-        user?.name || "Seth Juarez",
+        user?.name || "Louise Han",
         user?.image || "undefined"
       );
       // reset image
@@ -89,9 +89,36 @@ const Chat = ({ options }: Props) => {
 
   /** Events */
   const serverCallback = (data: SocketMessage) => {
+    if (data.role === "error") {
+      if (stateRef.current) {
+        // 更新之前的waiting消息为done
+        stateRef.current.turns.forEach((turn) => {
+          if (turn.status === "waiting") {
+            turn.status = "done";
+            turn.message = data.content;
+          }
+        });
+
+        // 插入错误消息
+        // stateRef.current.sendFullMessage({
+        //   name: "系统错误",
+        //   avatar: "",
+        //   image: null,
+        //   message: data.content,
+        //   status: "done",
+        //   type: "assistant",
+        // });
+
+        scrollChat();
+      }
+      return;
+    }
+
+    // 正常消息处理逻辑...
     if (stateRef.current && contextRef.current) {
       const client = new ActionClient(stateRef.current, contextRef.current);
       client.execute(data);
+      scrollChat();
     }
   };
 

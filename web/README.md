@@ -1,2 +1,2 @@
-# Contoso Concierge
-Contoso Concierge is a voice shopping assistant that helps you find and order products from Contoso Outdoors.
+# Contoso智能客服
+Contoso智能客服是一个语音智能助手帮助你在Contoso智能家居找到心仪的产品。

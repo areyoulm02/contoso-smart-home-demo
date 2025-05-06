@@ -14,16 +14,16 @@ const Home = async () => {
     <>
       <Header />
       <Block outerClassName={styles.heroContent}>
-        <div className={styles.heroTitle}>Embrace Adventure</div>
+        <div className={styles.heroTitle}>Contoso智能家居</div>
         <div className={styles.heroText}>
-          with Contoso Outdoors - Your Ultimate Partner in Exploring the Unseen!
+          科技轻语处，此处即吾家 | Where Technology Whispers HOME
         </div>
         <div className={styles.heroSubText}>
-          Choose from a variety of products to help you explore the outdoors.
-          From camping to hiking,
+          {/* Where Technology Whispers 'Home' */}
         </div>
         <div className={styles.heroSubText}>
-          we have you covered with the best gear and the best prices.
+          选择多样化的智能设备，改变您的家居体验;
+          从安防到自动化，从娱乐到舒适，我们应有尽有。
         </div>
       </Block>
       <>

@@ -1,5 +1,6 @@
 import json
 from typing import Dict, List, Union
+import openai
 from fastapi import WebSocket
 from prompty.tracer import trace
 from prompty.tracer import Tracer
@@ -16,6 +17,28 @@ from api.models import (
 
 from api.voice import RealtimeClient, Message
 
+def format_openai_error(err: openai.BadRequestError) -> str:
+    try:
+        meta = err.body
+
+        if meta.get("code") == "content_filter":
+            cf = (
+                meta.get("innererror", {})
+                .get("content_filter_result", {})
+            )
+            reason = next(
+                (k for k, v in cf.items() if v.get("filtered")), "unsafe content"
+            ).capitalize()
+            return (
+                "The prompt was filtered due to triggering Azure OpenAI Service’s content filtering system.\n\n"
+                ""
+                f"**Reason:** This prompt contains content flagged as **{reason}**\n\n"
+                "Please modify your prompt and retry. "
+                "[Learn more](https://go.microsoft.com/fwlink/?linkid=2198766)"
+            )
+        return meta.get("message", str(err))
+    except Exception:
+        return str(err)
 
 class ChatSession:
     def __init__(self, client: WebSocket):
@@ -64,33 +87,58 @@ class ChatSession:
                 await self.client.send_json(start_assistant())
 
                 # create response
-                response = await create_response(
-                    msg.name, msg.text, self.context, msg.image
-                )
+                try:
+                    response = await create_response(
+                        msg.name, msg.text, self.context, msg.image
+                    )
+                    # 如果 response 是 pydantic model 用 .model_dump()，否则直接发
+                    if hasattr(response, "model_dump"):
+                        await self.client.send_json(response.model_dump())
+                    else:
+                        await self.client.send_json(response)
+                    # unpack response
+                    text = response["response"]
+                    context = response["context"]
+                    call = response["call"]
 
-                # unpack response
-                text = response["response"]
-                context = response["context"]
-                call = response["call"]
+                    # send response
+                    await self.client.send_json(stream_assistant(text))
+                    await self.client.send_json(stop_assistant())
 
-                # send response
-                await self.client.send_json(stream_assistant(text))
-                await self.client.send_json(stop_assistant())
+                    # send context
+                    await self.client.send_json(send_context(context))
+                    await self.client.send_json(
+                        send_action("call", json.dumps({"score": call}))
+                    )
+                    self.context.append(response["context"])
+                    t(
+                        Tracer.RESULT,
+                        {
+                            "response": text,
+                            "context": context,
+                            "call": call,
+                        },
+                    )
+                except openai.BadRequestError as e:
+                    friendly_msg = format_openai_error(e)
+                    await self.client.send_json({
+                        "role": "error",
+                        "content": friendly_msg,
+                    })
+                    await self.client.send_json(stop_assistant())
+                    continue
+                except Exception as e:
+                    error_content = f"发生错误：{str(e)}"
+                    print(f"Error during create_response: {error_content}") # 增加日志方便调试
+                    await self.client.send_json({
+                        "role": "error",
+                        "content": error_content
+                    })
 
-                # send context
-                await self.client.send_json(send_context(context))
-                await self.client.send_json(
-                    send_action("call", json.dumps({"score": call}))
-                )
-                self.context.append(response["context"])
-                t(
-                    Tracer.RESULT,
-                    {
-                        "response": text,
-                        "context": context,
-                        "call": call,
-                    },
-                )
+                    await self.client.send_json(stop_assistant())
+                    continue
+
+                
 
     async def close(self):
         await self.client.close()

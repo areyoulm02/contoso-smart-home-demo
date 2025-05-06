@@ -1,7 +1,7 @@
 :root {
   --color-black: #000;
   --color-white: #fff;
-  --color-zinc-50: #fafafa;
+  --color-zinc-50: #fffdf2;
   --color-zinc-100: #f4f4f5;
   --color-zinc-200: #e4e4e7;
   --color-zinc-300: #d4d4d8;
@@ -54,7 +54,7 @@
   --color-sky-600: #0284c7;
   --color-sky-700: #0369a1;
   --color-sky-800: #075985;
-  --color-sky-900: #0c4a6e;
+  --color-sky-900: #8f8a78;
   --color-sky-950: #082f49;
   --color-pink-50: #fdf2f8;
   --color-pink-100: #fce7f3;
