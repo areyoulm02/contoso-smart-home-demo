@@ -17,7 +17,9 @@ const Header = () => {
   useEffect(() => {
     if (!userState?.user) {
       fetchUser().then((u) => {
-        userState?.setUser(u.name, u.email, u.image);
+        // 使用 louise-han.jpg 作为头像，而不是可能的 undefined
+        const userImage = '/people/louise-han.jpg';
+        userState?.setUser(u.name, u.email, userImage);
       });
     }
   }, [userState, userState?.user]);
@@ -25,7 +27,7 @@ const Header = () => {
   const getUserIcon = () => {
     if (user && user.image && user.image !== "undefined") {
       return (
-        <img src={user.image} alt={user.name} className={styles.userIcon} />
+        <img src={user.image} alt={user.name || 'User'} className={styles.userIcon} />
       );
     }
     return (

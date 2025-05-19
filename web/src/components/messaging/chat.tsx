@@ -6,6 +6,7 @@ import { GrPowerReset, GrClose, GrBeacon } from "react-icons/gr";
 import { HiOutlineChatBubbleLeftRight } from "react-icons/hi2";
 import { HiOutlinePaperAirplane } from "react-icons/hi2";
 import { ChatState, Turn, useChatStore } from "@/store/chat";
+import ImeInput from "./ime-input";
 import usePersistStore from "@/store/usePersistStore";
 import FileImagePicker from "./fileimagepicker";
 import { fetchCachedImage, removeCachedBlob } from "@/store/images";
@@ -238,18 +239,15 @@ const Chat = ({ options }: Props) => {
             )}
             {/* chat input section */}
             <div className={styles.chatInputSection}>
-              <input
-                id="chat"
-                name="chat"
-                type="text"
-                title="Type a message"
-                value={state ? state.message : ""}
-                onChange={(e) => state && state.setMessage(e.target.value)}
-                onKeyUp={(e) => {
-                  if (e.code === "Enter") sendMessage();
-                }}
-                className={styles.chatInput}
-              />
+              {state && (
+                <ImeInput
+                  value={state.message}
+                  onChange={(value) => state.setMessage(value)}
+                  onEnter={sendMessage}
+                  className={styles.chatInput}
+                  placeholder="Type your message here..."
+                />
+              )}
               {options && options.file && (
                 <FileImagePicker setCurrentImage={state.setCurrentImage} />
               )}

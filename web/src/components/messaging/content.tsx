@@ -55,11 +55,7 @@ const Content = ({ suggestions, debug, onClose }: Props) => {
 
   const createSuggestions = async () => {
     setContent([]);
-<<<<<<< HEAD
-    const task = await startSuggestionTask("Seth", messages);
-=======
     const task = await startSuggestionTask("Louise", messages);
->>>>>>> origin/dev
     for await (const chunk of task) {
       setContent((prev) => [...prev, chunk]);
     }
