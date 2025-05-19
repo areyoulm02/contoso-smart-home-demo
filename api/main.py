@@ -24,8 +24,8 @@ from api.voice import Message, RealtimeClient
 
 # load_dotenv()
 
-AZURE_VOICE_ENDPOINT = "https://jingr-m6zz4k41-eastus2.openai.azure.com"
-AZURE_VOICE_KEY = "4YH4dKi7zi3FYOvWBJzADIoF6gMgb5PdLejvSrANh3isw3Vnx7Z6JQQJ99BBACHYHv6XJ3w3AAAAACOGl5mT"
+AZURE_VOICE_ENDPOINT = "https://<your-endpoint>.openai.azure.com"
+AZURE_VOICE_KEY = "<your-azure-key>"
 
 LOCAL_TRACING_ENABLED = os.getenv("LOCAL_TRACING_ENABLED", "true") == "true"
 init_tracing(local_tracing=LOCAL_TRACING_ENABLED)

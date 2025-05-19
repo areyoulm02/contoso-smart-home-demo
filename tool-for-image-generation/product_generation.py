@@ -10,8 +10,8 @@ from pathlib import Path
 # Azure OpenAI Client setup
 client = AzureOpenAI(
     api_version="2024-02-01",
-    azure_endpoint="https://louise-test.openai.azure.com/",
-    api_key="4J8cD6rAXRDHcGc4iSaok67Ov80M0OccMwk9WpeJczGnfOOvSOKTJQQJ99ALACYeBjFXJ3w3AAAAACOG4oYs",
+    azure_endpoint="https://<your-endpoint>.openai.azure.com/",
+    api_key="<your-azure-key>",
 )
 
 # Base paths

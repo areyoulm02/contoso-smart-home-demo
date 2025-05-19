@@ -47,6 +47,11 @@ git push origin main
 
 ## 部署指南
 
+### 前端部署
+构建前端应用，创建Azure Static Web App
+```
+npm run build
+```
 ### 后端部署
 
 1. 安装Docker（如果尚未安装）
@@ -79,7 +84,3 @@ docker push contosoacr123.azurecr.io/contoso-voice-agent:latest
 5. 更新Azure容器应用
    - 在Azure门户中找到对应的Container App
    - 点击"刷新镜像"或"重启"应用
-
-6. 部署到GitHub Repo或其他托管服务
-   - 自动部署通过GitHub Actions完成
-   - 检查GitHub仓库的Actions标签页查看部署状态
