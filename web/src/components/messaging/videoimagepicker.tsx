@@ -72,6 +72,7 @@ const VideoImagePicker = ({ setCurrentImage }: Props) => {
     }
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const showVideo = async () => {
     const devices = await getDevices();
     if (!devices) {
