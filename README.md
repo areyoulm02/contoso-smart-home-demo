@@ -52,11 +52,13 @@ git push origin main
 1. 安装Docker（如果尚未安装）
 2. 构建Docker镜像
 ```bash
-# 进入API目录
-cd api
+# 正确方法一 (推荐): 在项目根目录下构建
+# 使用 -f 指定 Dockerfile 位置
+docker build -t contosoacr123.azurecr.io/contoso-voice-agent:latest -f ./api/Dockerfile ./api
 
-# 构建Docker镜像
-docker build -t contosoacr123.azurecr.io/contoso-voice-agent:latest .
+# 或者方法二: 进入API目录
+# cd api
+# docker build -t contosoacr123.azurecr.io/contoso-voice-agent:latest .
 ```
 
 3. 登录到Azure
